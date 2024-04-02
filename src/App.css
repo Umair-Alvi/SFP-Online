@@ -1,0 +1,45 @@
+.header{
+    height:98px;
+    background-color: white;
+}
+.main1{
+    background-color: #fff;
+    overflow-y: auto;
+    /* min-height: 85vh;
+    max-height: 90vh; */
+    margin-bottom: 50px;
+}
+.main{
+    background-color: #fff;
+    overflow-y: auto;
+    min-height: 85vh;
+    max-height: 70vh;
+    overflow-x: auto;
+   
+}
+.date-color{
+    color: #007a8d;
+    font-size: 16px;
+    font-weight: bold; 
+}
+.heading{
+    font-family: Open Sans;
+    font-size: 38px;  
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #007a8d;
+    margin-top: 20px;
+}
+.subtitle{
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-align: center;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
