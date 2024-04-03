@@ -43,38 +43,38 @@ const Insights = () => {
 
         <div className="container-fluid">
             <div className="row">
-                <div className="col-4">\
+                <div className="col-4">
                 <MyChart Name="Type of Business" />
                 </div>
 
-                <div className="col-4">\
+                <div className="col-4">
                 <MyChart Name="Reason for Rejection" />
                 </div>
 
 
-                <div className="col-4">\
+                <div className="col-4">
                 <PercentageChart />
                 </div>
 
               
-                <div className="col-4">\
+                <div className="col-4">
                 <MyChartComponent />
                 </div>
 
-                <div className="col-4">\
+                <div className="col-4">
                 <PercentageChart />
                 </div>
 
-                <div className="col-4">\
+                <div className="col-4">
                 <SimpleChart  />
                 </div>
-                <div className="col-4">\
+                <div className="col-4">
                
                 </div>
-                <div className="col-4">\
+                <div className="col-4">
                
                 </div>
-                <div className="col-4">\
+                <div className="col-4">
                 <table class="table mx-1"><thead><tr><th scope="col">Position</th><th scope="col">Advisor</th><th scope="col">Investment</th></tr></thead><tbody></tbody></table>
                 </div>
 
