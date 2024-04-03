@@ -3,6 +3,7 @@
     background-color: white;
 }
 .main1{
+    margin-top: 10px;
     background-color: #fff;
     overflow-y: auto;
     /* min-height: 85vh;
@@ -43,3 +44,24 @@ p{
     margin-top: 0;
     margin-bottom: 1rem;
 }
+.scoreCard{
+    font-family: Open Sans;
+    font-weight: 700;
+    text-align: center;
+    font-size: 38px;
+    line-height: 65px;
+
+}
+.insight-car {
+    /* background-color: rgb(255, 255, 255); */
+    margin-top: -15px;
+}
+ .scoreCard-title{
+    font-size: 14px;
+    line-height: 19px;
+}
+.apexcharts-legend {
+    display: flex;
+    overflow: auto;
+    padding: 0 10px;
+  }

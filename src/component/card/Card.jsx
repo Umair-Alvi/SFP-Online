@@ -8,22 +8,22 @@ import { Link , BrowserRouter} from 'react-router-dom';
 
 const Card = ({Label,Icon}) => {
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
     <div className="container">
-      <Link to="#" style={{ textDecoration: 'none' }}>
+      
         <div className="card appCard bg-body-light border-0 shadow app p-1 mb-1 bg-body-light rounded-4">
           <div className="card-body">
             <br />
-            <h5 className="card-title text-center">
+            <h5 className="card-title flex justify-center items-center ">
               {Icon} {/* Using the React icon component */}
             </h5>
             <br />
-            <p className="card-text text-center"><Link className="appLabel" to="#" style={{ textDecoration: 'none', color: 'black' }}>{Label}</Link></p>
+            <p className="card-text text-center">{Label}</p>
           </div>
         </div>
-      </Link>
+   
     </div>
-    </BrowserRouter>
+    // </BrowserRouter>q
   );
 }
 
