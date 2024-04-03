@@ -71,7 +71,7 @@ const InsightDate = () => {
                 <div className="col-2">
                     <label htmlFor="Region">Region</label>
                     <Dropdown
-                        options={["active", "inactive"]}
+                        options={["All"]}
                         label="Status"
                         className="mb-4"
                     />
@@ -80,7 +80,7 @@ const InsightDate = () => {
                 <div className="col-2 "> 
                     <label htmlFor="Advisor">Advisor</label>
                     <Dropdown
-                        options={["active", "inactive"]}
+                        options={["All", "Muhammad Umair Akram"]}
                         label="Status"
                         className="mb-4"
                     />
@@ -89,7 +89,7 @@ const InsightDate = () => {
                 <div className="col-2">
                     <label htmlFor="Business Type">Business Type</label>
                     <Dropdown
-                        options={["active", "inactive"]}
+                        options={["Business Assurance", "Comm release","Employee Benefits", "Funeral","GAP Cover", "Recurring - Investment","Lumpsum - Investment", "Investment- Both"]}
                         label="Status"
                         className="mb-4"
                     />
