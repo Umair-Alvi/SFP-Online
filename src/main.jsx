@@ -5,6 +5,9 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Insights from './pages/Insights.jsx'
 import Home from './pages/Home.jsx'
+import Login from './component/login/Login.jsx'
+import Forget from './forget/Forget.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -20,6 +23,15 @@ const router = createBrowserRouter([
         {
             path: "/apps/insights/advisor",
             element: <Insights />,
+        },
+        
+        {
+          path: "/login",
+          element: <Login />,
+        },
+        {
+          path: "/forget-password",
+          element: <Forget />,
         },
         
         

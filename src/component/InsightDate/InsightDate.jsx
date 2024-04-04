@@ -6,21 +6,34 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { IoIosCalendar } from "react-icons/io";
 
 const InsightDate = () => {
-  const [filterType, setFilterType] = useState(3); // Default filter type is "Day"
+  const [filterType, setFilterType] = useState(2); // Default filter type is "Day"
   const [selectedMonth, setSelectedMonth] = useState(''); // State for selected month
   const [selectedYear, setSelectedYear] = useState(''); // State for selected year
+  const [selectedDate, setSelectedDate] = useState(new Date());
+  const [selectedDate2, setSelectedDate2] = useState(new Date());
+
 
   const handleFilterTypeChange = (event) => {
     setFilterType(parseInt(event.target.value)); // Convert value to integer
   };
 
   const handleYearChange = (selectedYear) => {
-    setSelectedYear(selectedYear);
+    setSelectedYear(selectedYear.target.value);
   };
 
   const handleMonthChange = (selectedMonth) => {
-    setSelectedMonth(selectedMonth);
+    setSelectedMonth(selectedMonth.target.value);
   };
+
+  
+
+  const handleDateChange = (date) => {
+      setSelectedDate(date);
+  };
+
+  const handleDateChange2 = (date) => {
+    setSelectedDate2(date);
+};
 
   return (
     <>
@@ -73,9 +86,8 @@ const InsightDate = () => {
                         <label htmlFor="Year" className='lable'>Day</label>
                         <div className={`flex px-2 py-2 rounded-lg bg-white text-black outline-none focus:bg-gray-50 duration-200 border border-gray-200 w-full `}>
                         <DatePicker
-                       
-                            selected={new Date()}
-                            onChange={(date) => console.log(date)}
+                            selected={selectedDate}
+                             onChange={handleDateChange}
                             dateFormat="dd/MM/yyyy"
                             calendarClassName="custom-calendar"
                            
@@ -102,8 +114,8 @@ const InsightDate = () => {
                             <div className={`flex px-2 py-2 rounded-lg bg-white text-black outline-none focus:bg-gray-50 duration-200 border border-gray-200 w-full `}>
                             <DatePicker
                         
-                                selected={new Date()}
-                                onChange={(date) => console.log(date)}
+                                selected={selectedDate}
+                                onChange={handleDateChange}
                                 dateFormat="dd/MM/yyyy"
                                 calendarClassName="custom-calendar"
                             
@@ -118,8 +130,8 @@ const InsightDate = () => {
                             <div className={`flex px-2 py-2 rounded-lg bg-white text-black outline-none focus:bg-gray-50 duration-200 border border-gray-200 w-full `}>
                             <DatePicker
                         
-                                selected={new Date()}
-                                onChange={(date) => console.log(date)}
+                                selected={selectedDate2}
+                                onChange={handleDateChange2}
                                 dateFormat="dd/MM/yyyy"
                                 calendarClassName="custom-calendar"
                             

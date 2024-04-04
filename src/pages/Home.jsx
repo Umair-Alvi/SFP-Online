@@ -5,11 +5,13 @@ import { FaChartSimple } from "react-icons/fa6";
 import { BsClipboard2MinusFill} from "react-icons/bs";
 import Card from '../component/card/Card';
 import { Link } from 'react-router-dom';
+import Header from '../component/header/Header';
 
 
 const Home = () => {
   return (
     <>
+    <Header />
        <div className="main" >
       <Heading />
       <div className="container">

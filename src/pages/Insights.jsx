@@ -8,11 +8,13 @@ import PercentageChart from '../component/myChart/PercentageChart'
 import InsightDate from '../component/InsightDate/InsightDate'
 import MyChartComponent from '../component/myChart/MyChartComponent'
 import SimpleChart from '../component/myChart/SimpleChart'
+import Header from '../component/header/Header'
 
 const Insights = () => {
   return (
     <>
-      <div >
+    <Header />
+      <div  className='bg-white'>
        
        <InsightDate />
 
