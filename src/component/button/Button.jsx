@@ -4,7 +4,7 @@ export default function Button({
     children,
     type = "button",
     bgColor = "bg-ocean-500",
-    textColor = "text-black",
+    textColor = "text-white",
     className = "",
     ...props
 }) {
