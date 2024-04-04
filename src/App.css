@@ -3,7 +3,7 @@
     background-color: white;
 }
 .main1{
-    margin-top: 10px;
+    margin-top: -27px;
     background-color: #fff;
     overflow-y: auto;
     /* min-height: 85vh;
@@ -116,5 +116,9 @@ p{
   }
   body{
     background-color: #023e47;
+  }
+  .home{
+    margin-left: 70px;
+    margin-right: 80px;
   }
   

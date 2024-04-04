@@ -15,7 +15,7 @@ const Home = () => {
        <div className="main" >
       <Heading />
       <div className="container">
-        <div className="row">
+        <div className="row home ">
       
           
             <div className="col-2">

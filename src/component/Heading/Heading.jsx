@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../App.css'
-
+import { format } from 'date-fns';
 
 const Heading = () => {
     const [currentTime, setCurrentTime] = useState(new Date());
@@ -24,7 +24,7 @@ const seconds = currentTime.getSeconds();
 const check = `${hours >= 12 ? 'PM' : 'AM'}`;
 hours = `${hours > 12 ? hours - 12 : hours}`;
 
-const formattedTime = `${hours < 10 ? '0' + hours : hours}:${minutes < 10 ? '0' + minutes : minutes}:${seconds < 10 ? '0' + seconds : seconds} ${check}`;
+const formattedTime = `${hours < 10 ? '0' + hours : hours}:${minutes < 10 ? '0' + minutes : minutes} ${check}`;
 
     const currentDate = new Date();
 
@@ -36,12 +36,14 @@ const formattedTime = `${hours < 10 ? '0' + hours : hours}:${minutes < 10 ? '0' 
     // Format the date as desired (e.g., YYYY-MM-DD)
     const formattedDate = `${year}-${month < 10 ? '0' + month : month}-${day < 10 ? '0' + day : day}`;
 
+    const formattedDateSet = format(formattedDate, 'dd MMMM, yyyy');
+
     return (
         <>
         <div className="main1" >
         <div className="container">
-                <div className="position-relative">
-                    <div className="position-absolute top-0 end-0  date-color">{formattedDate} | {formattedTime}</div>
+                <div className="position-relative mr-20">
+                    <div className="position-absolute top-6 end-0  date-color">{formattedDateSet} | {formattedTime}</div>
                 </div>
             <br />
                 <div>
