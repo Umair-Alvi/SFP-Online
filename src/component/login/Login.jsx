@@ -48,10 +48,12 @@ const Login = () => {
                 })}
                 />
                 <Link to="/forget-password" className='inline-block mb-1 pl-1 form-label updated-email'>Forget Password ?</Link>
-                <Button
-                type="submit"
-                className="w-full"
-                >Sign in</Button>
+                <Link to="/apps/insights/advisor">
+                    <Button
+                    type="submit"
+                    className="w-full"
+                    >Sign in</Button>
+                </Link>
             </div>
         </form>
         </div>

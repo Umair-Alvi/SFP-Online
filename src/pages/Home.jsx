@@ -19,7 +19,7 @@ const Home = () => {
       
           
             <div className="col-2">
-            <Link to= {`/apps/insights/advisor`}>
+            <Link to= {`/login`}>
               <Card Label="Insights" Icon={<FaChartSimple />} />
               </Link>
               </div>
