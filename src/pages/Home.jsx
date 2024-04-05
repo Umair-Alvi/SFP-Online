@@ -23,8 +23,12 @@ const Home = () => {
               <Card Label="Insights" Icon={<FaChartSimple />} />
               </Link>
               </div>
-           
-            <div className="col-2"><Card Label="Web ROA" Icon={<BsClipboard2MinusFill />} /></div>
+         
+            <div className="col-2">
+            <Link to="/apps/roa">
+              <Card Label="Web ROA" Icon={<BsClipboard2MinusFill />} />
+            </Link>
+            </div>
             <div className="col-2"><Card Label="Insight" Icon={<FaChartBar />} /></div>
             <div className="col-2"><Card Label="Insight" Icon={<FaChartBar />} /></div>
             <div className="col-2"><Card Label="Insight" Icon={<FaChartBar />} /></div>

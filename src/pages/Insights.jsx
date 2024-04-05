@@ -14,7 +14,7 @@ const Insights = () => {
   return (
     <>
     <Header />
-      <div  className='bg-white'>
+      <div  className='bg-body-color'>
        
        <InsightDate />
 
@@ -43,7 +43,7 @@ const Insights = () => {
         <br />
         <hr />
 
-        <div className="container-fluid">
+        <div className="container-fluid bg-white">
             <div className="row">
                 <div className="col-4">
                 <MyChart Name="Type of Business" />

@@ -9,10 +9,10 @@ const Header = () => {
     const notificationCount =0;
   return (
     // <BrowserRouter>
-    <div className='header'>
-      <Navbar bg="white" expand="lg" className="navbar fixed-top m-auto">
-        {/* <Container  className="p-3 mb-3 border-bottom"> */}
-          <div className="container-fluid p-2.5 mb-2 border-bottom">
+    <div className='header '>
+      <Navbar bg="white"  className="navbar fixed-top mx-auto border-bottom">
+       
+          <div className="container-fluid pl-2.5 mb-2 ">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ml-24">
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li  >
@@ -58,10 +58,10 @@ const Header = () => {
 
           </div>
           </div>
-        {/* </Container> */}
+      
       </Navbar>
       </div>
-    // </BrowserRouter>
+    
   );
 };
 

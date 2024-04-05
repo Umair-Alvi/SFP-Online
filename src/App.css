@@ -1,6 +1,7 @@
 .header{
     height:98px;
-    background-color: white;
+    background-color: #f8f9fa;
+  
 }
 .main1{
     margin-top: -27px;
@@ -121,4 +122,150 @@ p{
     margin-left: 70px;
     margin-right: 80px;
   }
-  
+  .bg-body-color{
+    background-color: #f8f9fa;
+  }
+  .Roa-pag{
+    margin-top: -16px;
+  }
+  .left-side-main{
+    height: 100vh;
+     background-color: #f8f9fa
+  }
+  .left-side{
+    height: 95vh;
+     background-color: white
+  }
+  .sidebar-welcome {
+    color: #000;
+    font-size: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.sidebar-user {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.sidebar-date {
+    color: #333;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.sidebar-date, .sidebar-user {
+    font-family: Open Sans;
+    font-style: normal;
+    line-height: normal;
+}
+.btn-color{
+    background-color:#007a8d ;
+    color: white    ;
+    font-size: 18px;
+
+}
+.btn-color:hover{
+    background-color: rgb(76, 76, 245);
+    color: white    ;
+}
+.side-nav{
+    width: 120px;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.dashboard-summary{
+    
+    background-color: #fff;
+    margin-top: .5%;
+    margin-right: .5%;
+    padding: 7%;
+    
+}
+.dashboard-calender-icon1{
+    position: absolute;
+    left: 45.2%;
+    z-index: 100;
+    background-color: white;
+    top: 27%;
+}
+.dashboard-calender-icon2{
+    position: absolute;
+    left: 52.2%;
+    z-index: 100;
+    background-color: white;
+    top: 27%;
+}
+.kpi-card-1, .kpi-card-2 {
+    margin-right: 5%;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+.kpi-card-1 {
+    border-radius: 30px;
+    background: #feeae5;
+    border-color: #feeae5;
+}
+.kpi-number, .roa-kpi-number {
+    color: #333;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.kpi-title, .kpi-users-number, .roa-kpi-title {
+    color: #333;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.kpi-card-3, .kpi-card-4 {
+    margin-right: 5%;
+    height: 160px;
+    flex-shrink: 0;
+}
+.kpi-card-3 {
+    border-radius: 30px;
+    background: #fffae4;
+    border-color: #fffae4;
+}
+.kpi-card-2 {
+    border-radius: 30px;
+    background: #ffe5e9;
+    border-color: #ffe5e9;
+}
+.dashboard-progress{
+    
+    background-color: #fff;
+    margin-top: .5%;
+    
+    margin-left: -15px;
+    padding: 8%;
+    height: 57vh;
+    
+   
+}
+.app-dashboard-header{
+    font-family: Open Sans;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bold;
+}
+.dashboard-Recent-cases{
+    
+    background-color: #fff;
+   margin-top: 8px;
+    
+   
+}
+.roa-dashboard-records-table {
+    height: 30vh;
+    overflow-y: auto;
+}
