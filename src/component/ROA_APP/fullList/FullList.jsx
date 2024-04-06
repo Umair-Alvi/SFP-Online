@@ -15,7 +15,7 @@ const FullList = () => {
                 </div>
 
                 <div className="col-9">
-                    <RecentCases />
+                    <RecentCases  />
                 </div>
             </div>
         </div>
