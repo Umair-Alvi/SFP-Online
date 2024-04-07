@@ -1,27 +1,26 @@
 import React from 'react'
-import RecentCases from '../dashboard/RecentCases'
-import LeftSide from '../LeftSide'
 import Header from '../../header/Header'
+import LeftSide from '../LeftSide'
 
-const FullList = () => {
+const Export = () => {
   return (
-    <>
-     <Header />
+    <div>
+       < Header />
       <div className="bg-body-color">
         <div className="container-fluid Roa-pag">
             <div className="row">
                 <div className="col-3">
-                    <LeftSide class2="side-nav" />
+                    <LeftSide class3="side-nav" />
                 </div>
 
-                <div className="col-9">
-                    <RecentCases  sizeTable="recent-cases"/>
+                <div className="col-9 recent-cases">
+                    <h4 className='text-center pt-3 font-bold'>Export Data Wizard</h4>
                 </div>
             </div>
         </div>
         </div>
-    </>
+    </div>
   )
 }
 
-export default FullList
+export default Export

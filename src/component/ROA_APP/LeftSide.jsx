@@ -31,7 +31,7 @@ const LeftSide = ({class1,class2, class3, class4}) => {
            
             <ul className="nav nav-pills flex-column mb-auto">
                 <li className="nav-item">
-                    <Link className={`nav-link ${class1} flex pl-2 `} aria-current="page" to="/apps/roa">
+                    <Link className={`nav-link ${class1} link-body-emphasis flex pl-2 `} aria-current="page" to="/apps/roa">
                     <FaChartSimple className="size-6 mr-2 pl-2" />Dashboard</Link>
                 </li>
                 <li>

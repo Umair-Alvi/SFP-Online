@@ -172,6 +172,17 @@ p{
     background-color: rgb(76, 76, 245);
     color: white    ;
 }
+
+.btn-color1{
+  background-color:#007a8d ;
+  color: white    ;
+  font-size: 18px;
+
+}
+.btn-color1:hover{
+  background-color: rgb(87, 85, 85);
+  color: white    ;
+}
 .side-nav{
     width: 130px;
     background-color: #0d6efd;
@@ -214,6 +225,7 @@ p{
 .kpi-number, .roa-kpi-number {
     color: #333;
     font-family: Open Sans;
+    margin-top: 20px;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -223,6 +235,7 @@ p{
     color: #333;
     font-family: Open Sans;
     font-style: normal;
+    font-size: 12px;
     font-weight: 700;
     line-height: normal;
 }
@@ -268,4 +281,8 @@ p{
 .roa-dashboard-records-table {
     height: 30vh;
     overflow-y: auto;
+}
+.recent-cases{
+  height: 95vh;
+   background-color: white
 }
