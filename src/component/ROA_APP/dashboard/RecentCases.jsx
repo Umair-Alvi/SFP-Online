@@ -64,7 +64,7 @@ const RecentCases = ({sizeTable}) => {
           </div>
         </div>
 
-        <div class="roa-dashboard-records-table pl-4 ">
+        <div class="roa-dashboard-records-table pl-4 pr-4 ">
             <table class="table ">
                 <thead class="tableHead ">
                     <tr className='p-4'>
