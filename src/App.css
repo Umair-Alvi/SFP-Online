@@ -125,11 +125,14 @@ p{
   .bg-body-color{
     background-color: #f8f9fa;
   }
+  .bg-body-color-700{
+    background-color: #e0e4e9;
+  }
   .Roa-pag{
     margin-top: -16px;
   }
   .left-side-main{
-    height: 100vh;
+    height: 95vh;
      background-color: #f8f9fa
   }
   .left-side{
@@ -285,4 +288,12 @@ p{
 .recent-cases{
   height: 95vh;
    background-color: white
+}
+.mainProfile{
+  background-color: #fff;
+  overflow-y: auto;
+  min-height: 85vh;
+  max-height: 90vh;
+  overflow-x: auto;
+ 
 }

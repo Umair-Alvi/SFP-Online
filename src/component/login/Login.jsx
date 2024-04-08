@@ -2,7 +2,7 @@
 import React, {useState} from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 
-import {useForm} from "react-hook-form"
+
 import Input from '../Input'
 import Button from '../button/Button'
 

@@ -11,7 +11,7 @@ const Card = ({Label,Icon}) => {
     // <BrowserRouter>
     <div className="container">
       
-        <div className="card appCard bg-body-light border-0 shadow app p-3 mb-3 bg-body-light rounded-4 ">
+        <div className="card appCard bg-body-light border-0 shadow app p-1 mb-3 bg-body-light rounded-4 ">
           <div className="card-body">
             <br />
             <h5 className="card-title flex justify-center items-center ">

@@ -11,6 +11,9 @@ import ROA from './pages/ROA.jsx'
 import FullList from './component/ROA_APP/fullList/FullList.jsx'
 import Export from './component/ROA_APP/export/Export.jsx'
 import Import from './component/ROA_APP/import/Import.jsx'
+import Profile from './pages/Profile.jsx'
+
+
 
 
 const router = createBrowserRouter([
@@ -50,12 +53,17 @@ const router = createBrowserRouter([
       {
         path: "/apps/roa/export",
         element: <Export />,
-    },
+      },
 
     {
       path: "/apps/roa/import",
       element: <Import />,
-  },
+    },
+
+    {
+      path: "/apps/profile",
+      element: <Profile />,
+     },
         
         
     ],
